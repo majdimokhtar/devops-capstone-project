@@ -1,3 +1,4 @@
+# flake8: noqa
 """
 Account API Service Test Suite
 
@@ -20,9 +21,6 @@ DATABASE_URI = os.getenv(
 
 BASE_URL = "/accounts"
 HTTPS_ENVIRON = {'wsgi.url_scheme': 'https'}
-
-
-
 ######################################################################
 #  T E S T   C A S E S
 ######################################################################
